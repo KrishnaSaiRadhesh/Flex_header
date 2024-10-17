@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.head{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 2.5vh;
+    height: 10vh;
+    font-size: 1.2rem;
+}
+
+.first{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.second{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 4px;
+}
